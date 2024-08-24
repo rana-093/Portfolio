@@ -40,10 +40,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install": "npm install --legacy-peer-deps"
+    "install": "npm install --force",
+    "build": "npm run install && react-scripts build"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
