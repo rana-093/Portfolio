@@ -1,5 +1,4 @@
 {
-    "about": " This is where you can describe about **yourself**. The more you describe about yourself, the better it is!\n\n\nExtra Information about you, like hobbies and your goals.\nExample Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs.",
-    "imageSource": "images/about/profile.png"
-    
+    "about": "Software engineer with a can-do attitude. Graduated from Department of CSE,BUET. Love to solve algorithmic problems. During university days was actively involved with Competitive Programming, Programming Contests. Have taken part in several ICPC, IUPC, NCPCs and won prizes as well! \n\n\n Technical Skills: \n •Java, C++, Python, Go \n •Spring Boot, Django, Django Rest Framework \n •React.js with redux \n •MySQL, Postgres, Cassandra \n •AWS(EC2, S3, RDS, Lambda, ECS Cluster, ECR, EKS) \n •ELK Stack (Elasticsearch, Logstash, Kibana) with FileBeat \n •Docker, Docker-Compose \n •Kubernetes (EKS, GKE, Bare Metal K8S Cluster Deployment) \n •CI/CD: Github Actions, Circle CI, SonarQube \n •Algorithms, Data Structures \n •Others: Git, Nginx, Apache Kafka, Redis, Celery",
+    "imageSource": "images/about/profile.jpeg"   
 }

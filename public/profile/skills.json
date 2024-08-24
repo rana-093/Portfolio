@@ -1,10 +1,9 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "Driven by a passion for continuous learning and innovation, I actively seek to explore and master emerging technologies. Below are some of the key languages, technologies, tools, and platforms I have substantial experience with:",
     "skills": [{
      
             "title": "Languages & Databases",
             "items" : [
-     
                 {
                     "icon": "images/skills/java.png",
                     "title": "Java"
