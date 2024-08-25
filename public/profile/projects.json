@@ -111,34 +111,14 @@
             ]
         },
         {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
+            "title": "ELK Stack Monitoring Solution",
+            "bodyText": "- Architected and deployed a comprehensive ELK Stack solution for logging and infrastructure monitoring of Priyo products, utilizing Elasticsearch for search and analytics, Logstash for log processing, and Kibana for data visualization \n - Integrated Filebeat for efficient log collection and Kafka for robust data streaming, enabling real-time monitoring and analysis across the entire infrastructure \n - Deployed the entire stack on OVH Cloud, ensuring scalable, reliable, and high-performance infrastructure monitoring with a focus on enhancing operational insights and system reliability",
             "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Elasticsearch",
+                "Logstash",
+                "Kibana",
+                "OVH Cloud",
+                "Apache Kafka"
             ]
         }
     ]
