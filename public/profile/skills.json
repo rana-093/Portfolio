@@ -47,21 +47,83 @@
             ]
         },
         {
-            "title" : "Tools & Platforms",
+            "title": "Frontend Library",
+            "items" : [
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                }
+            ]
+        },
+        {
+            "title": "Databases",
+            "items" : [
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/Postgres.png",
+                    "title": "PostgreSQL"
+                },
+                {
+                    "icon": "images/skills/cassandra.png",
+                    "title": "Cassandra"
+                }
+            ]
+        },
+        {
+            "title": "Clouds",
+            "items" : [
+                {
+                    "icon": "images/skills/aws.png",
+                    "title": "AWS"
+                },
+                {
+                    "icon": "images/skills/gcp.png",
+                    "title": "GCP"
+                }
+            ]
+        },
+        {
+            "title" : "Logging",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/elastic.png",
+                    "title": "Elastic Search"
                 },
                 {
                     
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "icon": "images/skills/logstash.png",
+                    "title": "Logstash"
                 },
+                {
+                    "icon": "images/skills/kibana.png",
+                    "title": "Kibana"
+                }
+            ]
+        },
+        {
+            "title" : "Container",
+            "items": [
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
+                },
+                {
+
+                    "icon": "images/skills/docker-compose.png",
+                    "title": "Docker Compose"
                 }
             ]
-    }
-]}
+        },
+        {
+            "title" : "Container Orchestration",
+            "items": [
+                {
+                    "icon": "images/skills/k8s.png",
+                    "title": "Kubernetes"
+                }
+            ]
+        }
+    ]}
