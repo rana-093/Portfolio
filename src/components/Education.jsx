@@ -64,6 +64,7 @@ function Education(props) {
                 <div className="chrono-icons">
                   {data.education.map((education) => (education.icon ? (
                     <img
+                        style={{width: '100px', height: '100px'}}
                       key={education.icon.src}
                       src={education.icon.src}
                       alt={education.icon.alt}

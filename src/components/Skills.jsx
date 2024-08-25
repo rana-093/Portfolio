@@ -9,7 +9,7 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   iconStyle: {
-    height: 150,
+    height: 120,
     width: 150,
     margin: 10,
     marginBottom: 10,
@@ -47,9 +47,10 @@ function Skills(props) {
             <Container>
               {renderSkillsIntro(data.intro)}
               {data.skills?.map((rows) => (
-                <div key={rows.title}>
+                <div key={rows.title} style={{marginBottom: '100px'}}>
                   <br />
-                  <h3>{rows.title}</h3>
+                  <h2>{rows.title}</h2>
+                  <br/>
                   {rows.items.map((item) => (
                     <div key={item.title} style={{ display: 'inline-block' }}>
                       <img

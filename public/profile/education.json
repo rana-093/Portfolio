@@ -1,19 +1,40 @@
 {
     "education":[
         {
-            "title": "February 2016 - January 2021",
+            "title": "March 2016 - February 2021",
             "cardTitle": "BSc. in Computer Science & Engineering",
             "cardSubtitle":"Bangladesh University of Engineering & Technology (BUET)",
-            "cardDetailedText": "",
-            "icon" : {
-                "src": "images/education/buet.png"
+            "cardDetailedText": "Last 4 terms CGPA: 3.40/4.00",
+            "media": {
+                "type": "IMAGE",
+                "source": {
+                    "url": "https://www.observerbd.com/2023/12/26/ob_1703580337.JPG"
+                }
             }
         },
         {
             "title": "May 2013 - March 2015",
-            "cardTitle": "College",
-            "cardSubtitle":"Govt Science College, Dhaka",
-            "cardDetailedText": "GPA - 5.00 / 5.00"
+            "cardTitle": "Science Department",
+            "cardSubtitle":"Govt. Science College, Dhaka",
+            "cardDetailedText": "GPA - 5.00 / 5.00",
+            "media": {
+                "type": "IMAGE",
+                "source": {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM57C0-w3F9NMKDv9YD9wf72kFzo1QFvEG1A&s"
+                }
+            }
+        },
+        {
+            "title": "January 2007 - March 2013",
+            "cardTitle": "Science Department",
+            "cardSubtitle":"Rajendrapur Cantonment Public School & College",
+            "cardDetailedText": "GPA - 5.00 / 5.00",
+            "media": {
+                "type": "IMAGE",
+                "source": {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjinH2EIt0vk3YU5MEwfuGSoip4KoEPa5N7g&s"
+                }
+            }
         }
     ]
 }
