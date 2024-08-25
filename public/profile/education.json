@@ -1,19 +1,19 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "February 2016 - January 2021",
+            "cardTitle": "BSc. in Computer Science & Engineering",
+            "cardSubtitle":"Bangladesh University of Engineering & Technology (BUET)",
+            "cardDetailedText": "",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/buet.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "May 2013 - March 2015",
+            "cardTitle": "College",
+            "cardSubtitle":"Govt Science College, Dhaka",
+            "cardDetailedText": "GPA - 5.00 / 5.00"
         }
     ]
 }

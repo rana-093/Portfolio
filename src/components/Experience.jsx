@@ -19,6 +19,9 @@ const styles = {
     marginTop: 10,
     marginBottom: 10,
   },
+  aHref: {
+    pointerEvents: 'auto',
+  },
   subtitleStyle: {
     display: 'inline-block',
   },
@@ -33,15 +36,22 @@ const styles = {
 function Experience(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
+
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.experiences, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res.experiences))
-      .catch((err) => err);
+    const fetchData = async () => {
+      const response = await fetch(endpoints.experiences, {
+        method: 'GET',
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const result = await response.json();
+      setData(result.experiences); // Set the state with the experiences array
+    };
+
+    fetchData();
   }, []);
 
   return (
@@ -69,7 +79,11 @@ function Experience(props) {
                       </h2>
                       <div style={styles.subtitleContainerStyle}>
                         <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
-                          {item.subtitle}
+                          <a style={{ ...styles.aHref }} href={item.redirectUrl}>
+                            {' '}
+                            {item.subtitle}
+                            {' '}
+                          </a>
                         </h4>
                         {item.workType && (
                         <h5 style={styles.inlineChild}>

@@ -26,19 +26,23 @@
                 }
         ]},
         {
-            "title": "Frameworks & Technologies",
+            "title": "Backend Frameworks",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/spring-boot.jpeg",
+                    "title": "Spring Boot"
                 },
                 {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
+                    "icon": "images/skills/django.png",
+                    "title": "Django"
                 },
                 {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
+                    "icon": "images/skills/drf.png",
+                    "title": "Django Rest Framework"
+                },
+                {
+                    "icon": "images/skills/gin.png",
+                    "title": "Gin"
                 }
             ]
         },

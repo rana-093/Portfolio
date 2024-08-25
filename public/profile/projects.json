@@ -1,118 +1,113 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
+            "image" : "images/projects/clickhouse.png",
+            "title": "On Prem Clickhouse Database",
+            "bodyText": "-  Successfully led the development of a ClickHouse-based data infrastructure, serving as an alternative to managed ClickHouse DB services. Designed and implemented a high-performance columnar database cluster \n -  Developed a Proof of Concept (POC) on Google Cloud Platform (GCP) and deployed the production cluster on Amazon Web Services (AWS), ensuring a scalable and reliable database solution. \n -  Engineered the infrastructure to handle an existing database of 10TB with daily data uploads of 5GB, optimizing for efficient data ingestion and querying. \n - Leveraged ClickHouse’s sparse indexing capabilities to enhance data retrieval performance and reduce storage overhead, improving overall system efficiency. \n -  Planned to offer the ClickHouse infrastructure as a SaaS solution, aiming to provide a cost-effective alternative to managed ClickHouse services while maintaining competitive pricing.",
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Clickhouse",
+                "NoSQL DB",
+                "Sparse Indexing",
+                "GCP",
+                "Compute Engine",
+                "Clickhouse Keeper"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/k3s.png",
+            "title": "Kubernetes Cluster on Bare Metal servers",
+            "bodyText": "- Set up a k3s Kubernetes cluster on AWS, including a master node, two worker nodes, and a Bastion host with Nginx for reverse proxy \n - Deployed a Node.js backend application with a MySQL database using Docker and Kubernetes, creating NodePort services and deployments for scalability \n - Configured private subnets for control and database planes, ensuring secure connectivity and functionality between EC2 instances and RDS  \n - Managed Docker image deployment to DockerHub and applied Kubernetes manifests to facilitate efficient application deployment and management.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/rana-093/Kubernetes-Hard-Way"
                 },
                 {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "Medium",
+                    "href": "https://medium.com/@rana_093/deploy-production-grade-kubernetes-cluster-on-bare-metal-using-k3s-a74d3091b6b4"
+                }
+            ],
+            "tags" : [
+                "Kubernetes",
+                "AWS",
+                "Bare Metal",
+                "Docker",
+                "MySQL",
+                "Node.js",
+                "k3s",
+                "EC2"
+            ]
+        },
+        {
+            "image" : "images/projects/azure.png",
+            "title": "AKS Application Gateway Ingress Controller Deployment",
+            "bodyText": "- Deployed a Node.js application on Azure Kubernetes Service (AKS), configuring Kubernetes manifests for deployment, services, autoscaling, and ingress \n - Automated CI/CD workflows using GitHub Actions, including Docker image builds, pushing to Azure Container Registry (ACR), and deploying to AKS \n - Managed Azure resources for the project, including creating and configuring AKS clusters and ACR \n - Ensured secure HTTPS communication with a self-signed certificate and provided comprehensive setup and deployment documentation",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rana-093/AKS-AGIC-Deployment"
+                }
+            ],
+            "tags" : [
+                "Azure",
+                "AKS",
+                "Ingress",
+                "CI/CD",
+                "Github Actions",
+                "Kubernetes"
+            ]
+        },
+        {
+            "title": "IMDB Scraper on Kubernetes",
+            "bodyText": "- Created and deployed an IMDB scraper application to fetch the top 50 movies from IMDB, using Docker to build and run the application \n - Configured Docker and Kubernetes environments, including building Docker images, running containers with volume mounts for persistent storage, and deploying the application to Kubernetes clusters \n - Managed Kubernetes resources by applying manifests for deployment, service, and Horizontal Pod Autoscaler (HPA), and used kubectl for monitoring and verification \n - Integrated with AWS and EKS, ensuring proper configuration and setup of cloud resources to support the Kubernetes deployment \n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rana-093/imdb-scraper-k8s"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Scrapy",
+                "Spider",
+                "Docker",
+                "Kubernetes",
+                "AWS"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "TeleHealth Application",
+            "bodyText": "- Developed a telehealth application using Django Rest Framework and PostgreSQL, featuring functionalities for managing doctors, patients, and appointments based on availability \n - Implemented robust backend services with Django for handling API requests, data storage, and business logic. \n - Deployed the application on AWS, utilizing EC2 for server hosting, API Gateway for routing, and a Load Balancer for traffic distribution to ensure scalability and reliability \n - Ensured seamless operation and high availability by integrating various AWS services and optimizing the infrastructure for performance",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/rana-093/TeleHealth"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Django Rest Framework",
+                "PostgreSQL",
+                "AWS API Gateway",
+                "EC2",
+                "Backend",
+                "Load Balancer"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "MCQ Ninja",
+            "bodyText": "- Developed a full-stack MCQ application using Spring MVC, Oracle Database, Hibernate, Servlets, and JSP, enabling users to participate in multiple-choice question exams \n - Implemented dynamic question sets with varying difficulty levels, enhancing user engagement and exam customization \n - Integrated a live scoreboard feature, providing real-time updates and competitive metrics during exams \n - Designed an admin interface for adding and managing questions and exams, streamlining content management and application configuration \n - Ensured robust and scalable architecture, leveraging Spring MVC and Hibernate for efficient backend operations and data handling",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "href": "https://github.com/rana-093/MCQ-Ninja"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "Spring MVC",
+                "JSP",
+                "Hibernate",
+                "Oracle DB",
+                "Servlet"
             ]
         },
         {
