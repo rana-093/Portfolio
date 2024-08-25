@@ -40,7 +40,7 @@
             "Led a team of 5 members in developing an E-commerce platform using **Django Rest Framework** serving **10k+ daily users**",
             "Orchestrated a logging system for analyzing & infrastructure monitoring purpose with **ELK stack & Filebeat** providing valuable insights into user behavior and enabling data-driven decision-making",
             "Developed an on-premise notification microservice using **Apache Kafka, Express.js, Socket.io & Cassandra**",
-            "Designed and integrated required REST APIs for a fintech web application named Priyo Pay using **Django Rest Framework, PostgreSQL** and deployed it on AWS from scratch using **EC2, VPC, S3, RDS, ElastiCache & Nginx**",
+            "Designed and integrated required REST APIs for a **fintech web application** named Priyo Pay using **Django Rest Framework, PostgreSQL** and deployed it on AWS from scratch using **EC2, VPC, S3, RDS, ElastiCache & Nginx**",
             "Deployed and managed a resilient **4-node Kubernetes cluster on On-Prem cloud infrastructure**, featuring one master node and three worker nodes. Orchestrated persistent storage with **Chef & Rook**. Implemented and operated PostgreSQL databases using the **Crunchy PostgreSQL Operator**, ensuring efficient database operations and high availability",
                 "Directed **React.js/Redux** implementation, optimizing UI by **20%**, ensuring pixel-perfect design"
             ],

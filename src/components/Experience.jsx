@@ -54,12 +54,9 @@ function Experience(props) {
     fetchData();
   }, []);
 
-  console.log('data is: ', data);
-
   return (
       <>
         <Header title={header}/>
-        <a href="https://www.smartcrowd.ae/">Click here</a>
         {data
             ? (
                 <div className="section-content-container">
