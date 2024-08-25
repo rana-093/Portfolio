@@ -76,6 +76,7 @@
             ]
         },
         {
+            "image" : "images/projects/telehealth.png",
             "title": "TeleHealth Application",
             "bodyText": "- Developed a telehealth application using Django Rest Framework and PostgreSQL, featuring functionalities for managing doctors, patients, and appointments based on availability \n - Implemented robust backend services with Django for handling API requests, data storage, and business logic. \n - Deployed the application on AWS, utilizing EC2 for server hosting, API Gateway for routing, and a Load Balancer for traffic distribution to ensure scalability and reliability \n - Ensured seamless operation and high availability by integrating various AWS services and optimizing the infrastructure for performance",
             "links": [

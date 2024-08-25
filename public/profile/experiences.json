@@ -8,10 +8,27 @@
             "workDescription": [
                 "Created and deployed **four microservices**—Backend, Location, User, and Notification—using **Spring Boot and PostgreSQL**, ensuring modular and scalable architecture",
                 "Integrated comprehensive audit logging across all microservices to enhance monitoring and compliance, providing critical insights into system usage and changes",
-                " Deployed the microservices on **AWS**, leveraging cloud infrastructure for improved scalability, reliability, and performance",
+                "Deployed the microservices on **AWS**, leveraging cloud infrastructure for improved scalability, reliability, and performance",
                 "Utilized best practices in microservices architecture and cloud deployment to deliver robust, maintainable, and high-performance solutions"
             ],
             "dateText": "Aug 2024 – Present"
+        },
+        {
+            "title": "Backend Engineer",
+            "subtitle": "Synchromedics",
+            "workType": "Iowa, USA - Part Time (Remote)",
+            "redirectUrl": "https://app.synchromedics.com",
+            "workDescription": [
+                "Led the development and deployment of **5+ key modules** using **Django Rest Framework, Angular, and GCP** contributing to a **20% increase** in overall system efficiency",
+                "Architected and deployed a highly scalable notification service using **WebSocket, Node.js, and Redis Pub/Sub**, handling **over 5k messages** per day",
+                "Led the development of a real-time chat module using **WebSocket and Node.js**, supporting over **500 concurrent users**",
+                "Spearheaded synchronization between Athena dashboard and DRF backend using **Celery and Celery Beat, reducing data lag by 80%**",
+                "Designed and implemented a robust appointment scheduling system",
+                "Successfully migrated the backend from a single server to a **GCP Auto Scaling Group and Load Balancer**, achieving **95% uptime**",
+                "Enhanced security by integrating **GCP Armor** for DDoS protection, mitigating **over 10K** potential threats",
+                "Managed GCP infrastructure with compute instances, instance groups, and managed instances improving performance by **20%**"
+            ],
+            "dateText": "Jan 2023 – Present"
         },
         {
             "title": "Backend / DevOps Engineer",
@@ -36,12 +53,15 @@
             "redirectUrl": "https://www.priyo.com/",
             "workDescription": [
                 "Built backend API services using **Spring Boot, Django & Django Rest Framework**",
-            "Refactored existing REST APIs of Spring Boot which reduced the response time by **25%**",
-            "Led a team of 5 members in developing an E-commerce platform using **Django Rest Framework** serving **10k+ daily users**",
-            "Orchestrated a logging system for analyzing & infrastructure monitoring purpose with **ELK stack & Filebeat** providing valuable insights into user behavior and enabling data-driven decision-making",
-            "Developed an on-premise notification microservice using **Apache Kafka, Express.js, Socket.io & Cassandra**",
-            "Designed and integrated required REST APIs for a **fintech web application** named Priyo Pay using **Django Rest Framework, PostgreSQL** and deployed it on AWS from scratch using **EC2, VPC, S3, RDS, ElastiCache & Nginx**",
-            "Deployed and managed a resilient **4-node Kubernetes cluster on On-Prem cloud infrastructure**, featuring one master node and three worker nodes. Orchestrated persistent storage with **Chef & Rook**. Implemented and operated PostgreSQL databases using the **Crunchy PostgreSQL Operator**, ensuring efficient database operations and high availability",
+                "Integrated File upload system of Authentication Server with **Spring Boot using Minio**",
+                "Integrated MAC Address based authentication using **Spring Security, OAuth2.0 & JWT**",
+                "Designed & developed OTP sending module using **Redis, Django & AWS EC2** which serves around **~15k people** daily",
+                "Refactored existing REST APIs of Spring Boot which reduced the response time by **25%**",
+                "Led a team of 5 members in developing an E-commerce platform using **Django Rest Framework** serving **10k+ daily users**",
+                "Orchestrated a logging system for analyzing & infrastructure monitoring purpose with **ELK stack & Filebeat** providing valuable insights into user behavior and enabling data-driven decision-making",
+                "Developed an on-premise notification microservice using **Apache Kafka, Express.js, Socket.io & Cassandra**",
+                "Designed and integrated required REST APIs for a **fintech web application** named Priyo Pay using **Django Rest Framework, PostgreSQL** and deployed it on AWS from scratch using **EC2, VPC, S3, RDS, ElastiCache & Nginx**",
+                "Deployed and managed a resilient **4-node Kubernetes cluster on On-Prem cloud infrastructure**, featuring one master node and three worker nodes. Orchestrated persistent storage with **Chef & Rook**. Implemented and operated PostgreSQL databases using the **Crunchy PostgreSQL Operator**, ensuring efficient database operations and high availability",
                 "Directed **React.js/Redux** implementation, optimizing UI by **20%**, ensuring pixel-perfect design"
             ],
             "dateText": "Mar 2021 – Dec 2022"
