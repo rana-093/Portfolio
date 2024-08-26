@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
-import { Container } from 'react-bootstrap';
+import { Container, Badge, Card } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
@@ -14,6 +14,13 @@ const styles = {
   ulStyle: {
     listStylePosition: 'outside',
     paddingLeft: 20,
+  },
+  badgeStyle: {
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 5,
+    paddingBottom: 5,
+    margin: 5,
   },
   subtitleContainerStyle: {
     marginTop: 10,
@@ -101,6 +108,19 @@ function Experience(props) {
                           </div>
                         ))}
                       </ul>
+                      <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
+                        {item.tags.map((tag) => (
+                          <Badge
+                            key={tag}
+                            pill
+                            bg={theme.bsSecondaryVariant}
+                            text={theme.bsPrimaryVariant}
+                            style={styles.badgeStyle}
+                          >
+                            {tag}
+                          </Badge>
+                        ))}
+                      </Card.Footer>
                     </TimelineItem>
                   </Fade>
                 ))}

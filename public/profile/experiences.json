@@ -11,7 +11,8 @@
                 "Deployed the microservices on **AWS**, leveraging cloud infrastructure for improved scalability, reliability, and performance",
                 "Utilized best practices in microservices architecture and cloud deployment to deliver robust, maintainable, and high-performance solutions"
             ],
-            "dateText": "Aug 2024 – Present"
+            "dateText": "Aug 2024 – Present",
+            "tags": ["Spring Boot", "PostgreSQL", "AWS", "Docker"]
         },
         {
             "title": "Backend Engineer",
@@ -28,7 +29,8 @@
                 "Enhanced security by integrating **GCP Armor** for DDoS protection, mitigating **over 10K** potential threats",
                 "Managed GCP infrastructure with compute instances, instance groups, and managed instances improving performance by **20%**"
             ],
-            "dateText": "Jan 2023 – Present"
+            "dateText": "Jan 2023 – Present",
+            "tags": ["Django Rest Framework", "Node.js", "Redis", "Celery", "Celery Beat", "PostgreSQL", "GCP", "GCP Compute", "App Armor", "HealthTech"]
         },
         {
             "title": "Backend / DevOps Engineer",
@@ -44,7 +46,8 @@
                 "Spearheaded the Share Transfer Facility (STF) project, overseeing frontend (React), backend (Spring Boot) and AWS cloud deployment achieving **20% faster delivery** and garnering positive customer feedbacks",
                 "Orchestrated high availability through Route53 failover, established RDS master-slave replication, conducted DR tests, and guided disaster recovery procedures, resulting in **90% uptime and 30% faster** issue resolution"
             ],
-            "dateText": "Jan 2023 – July 2024"
+            "dateText": "Jan 2023 – July 2024",
+            "tags": ["Spring Boot", "React.js", "MySQL", "AWS", "AWS ECS", "Circle CI", "Github Actions", "Kubernetes", "Fintech", "Wealth Tech"]
         },
         {
             "title": "Software Engineer",
@@ -64,7 +67,8 @@
                 "Deployed and managed a resilient **4-node Kubernetes cluster on On-Prem cloud infrastructure**, featuring one master node and three worker nodes. Orchestrated persistent storage with **Chef & Rook**. Implemented and operated PostgreSQL databases using the **Crunchy PostgreSQL Operator**, ensuring efficient database operations and high availability",
                 "Directed **React.js/Redux** implementation, optimizing UI by **20%**, ensuring pixel-perfect design"
             ],
-            "dateText": "Mar 2021 – Dec 2022"
+            "dateText": "Mar 2021 – Dec 2022",
+            "tags": ["Django", "Django Rest Framework", "React.js", "Redis", "AWS", "Kubernetes"]
         }
     ]
 }
