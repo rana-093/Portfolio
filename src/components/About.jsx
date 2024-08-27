@@ -4,6 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import Header from './Header';
+import Education  from "./Education";
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
@@ -63,6 +64,7 @@ function About(props) {
             )
             : <FallbackSpinner />}
         </Container>
+        <Education header="Education" />
       </div>
     </>
   );
