@@ -21,6 +21,11 @@
             "headerTitle": "Experience"
         },
         {
+            "component": "Achievements",
+            "path": "/achievement",
+            "headerTitle": "Achievements"
+        },
+        {
             "component": "Projects",
             "path": "/projects",
             "headerTitle": "Notable Projects"

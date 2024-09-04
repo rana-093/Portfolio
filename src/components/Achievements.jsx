@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Container, Col, Row } from 'react-bootstrap';
@@ -36,35 +37,30 @@ function About(props) {
   );
 
   useEffect(() => {
-    fetch(endpoints.about, {
+    fetch(endpoints.achievement, {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
+      .then((res) => setData(res.achievement))
       .catch((err) => err);
   }, []);
+
+  console.log('data is: ', data);
 
   return (
     <>
       <Header title={header} />
       <div className="section-content-container">
-        <Container>
-          {data
-            ? (
-              <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
-                  </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
-                  </Col>
-                </Row>
-              </Fade>
-            )
-            : <FallbackSpinner />}
-        </Container>
-        <Education header="Education" />
+       
+          {data ? (
+            data.map((item) => (
+                  <a href={item.href} style={{textDecoration: 'none', color: 'red'}}>
+                    {parseIntro(item.story)}
+                </a>
+            ))
+          ) : (
+            <FallbackSpinner />
+          )}
       </div>
     </>
   );
