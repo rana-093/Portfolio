@@ -22,7 +22,7 @@
         },
         {
             "component": "Achievements",
-            "path": "/achievement",
+            "path": "/achievements",
             "headerTitle": "Achievements"
         },
         {

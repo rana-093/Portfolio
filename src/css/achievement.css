@@ -1,0 +1,45 @@
+/* MyComponent.css */
+
+.section-content-container2 {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.section-content-container2 a {
+    display: block;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.section-content-container2 a:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.section-content-container2 a .item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-content-container2 a .item-story {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.fallback-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}

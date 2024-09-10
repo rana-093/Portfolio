@@ -1,23 +1,26 @@
 {
     "experiences": [
         {
-            "title": "Senior Software Engineer",
-            "subtitle": "Shamolima Ltd",
-            "workType": "Dhaka, Bangladesh - Full Time",
-            "redirectUrl": "https://www.shamolima.com/",
+            "title": "Backend / DevOps Engineer",
+            "subtitle": "SmartCrowd",
+            "workType": "Dubai, UAE - Full Time (Remote)",
+            "redirectUrl": "https://www.smartcrowd.ae/",
             "workDescription": [
-                "Created and deployed **four microservices**—Backend, Location, User, and Notification—using **Spring Boot and PostgreSQL**, ensuring modular and scalable architecture",
-                "Integrated comprehensive audit logging across all microservices to enhance monitoring and compliance, providing critical insights into system usage and changes",
-                "Deployed the microservices on **AWS**, leveraging cloud infrastructure for improved scalability, reliability, and performance",
-                "Utilized best practices in microservices architecture and cloud deployment to deliver robust, maintainable, and high-performance solutions"
+                "Significantly improved Spring Boot & GoLang Backend API response time from **2 seconds to an impressive 300 milliseconds**",
+                "Designed and implemented highly efficient Backend CRON jobs using **Spring Boot, GoLang, AWS EventBridge & AWS Lambda**",
+                "Replaced legacy Spinnaker CD pipeline with self-hosted Github Actions Runners reducing AWS EC2 cost by **60%**",
+                "**Reduced overall AWS cost by 46%** by migrating the UAT environment from the ECS Cluster to EC2 instances without compromising the testing and functionality of the system and ensuring minimal downtime",
+                "Led the migration of a specific module from AWS to OCI (Oracle Cloud Infrastructure) within a Spring Boot codebase restructuring dependencies for optimized deployment on **OCI’s Compute, Database Systems, and Object Storage**",
+                "Spearheaded the Share Transfer Facility (STF) project, overseeing frontend (React), backend (Spring Boot) and AWS cloud deployment achieving **20% faster delivery** and garnering positive customer feedbacks",
+                "Orchestrated high availability through Route53 failover, established RDS master-slave replication, conducted DR tests, and guided disaster recovery procedures, resulting in **90% uptime and 30% faster** issue resolution"
             ],
-            "dateText": "Aug 2024 – Present",
-            "tags": ["Spring Boot", "PostgreSQL", "AWS", "Docker"]
+            "dateText": "Jan 2023 – Sept 2024",
+            "tags": ["Spring Boot", "React.js", "MySQL", "AWS", "AWS ECS", "Circle CI", "Github Actions", "Kubernetes", "Fintech", "Wealth Tech"]
         },
         {
             "title": "Backend Engineer",
             "subtitle": "Synchromedics",
-            "workType": "Iowa, USA - Part Time (Remote)",
+            "workType": "Iowa, USA - Part Time (Freelance, Remote)",
             "redirectUrl": "https://app.synchromedics.com",
             "workDescription": [
                 "Led the development and deployment of **5+ key modules** using **Django Rest Framework, Angular, and GCP** contributing to a **20% increase** in overall system efficiency",
@@ -31,23 +34,6 @@
             ],
             "dateText": "Jan 2023 – Present",
             "tags": ["Django Rest Framework", "Node.js", "Redis", "Celery", "Celery Beat", "PostgreSQL", "GCP", "GCP Compute", "App Armor", "HealthTech"]
-        },
-        {
-            "title": "Backend / DevOps Engineer",
-            "subtitle": "SmartCrowd",
-            "workType": "Dubai, UAE - Full Time (Remote)",
-            "redirectUrl": "https://www.smartcrowd.ae/",
-            "workDescription": [
-                "Significantly improved Spring Boot API response time from **2 seconds to an impressive 300 milliseconds**",
-                "Designed and implemented highly efficient Backend CRON jobs using **Spring Boot, AWS EventBridge & AWS Lambda**",
-                "Replaced legacy Spinnaker CD pipeline with self-hosted Github Actions Runners reducing AWS EC2 cost by **60%**",
-                "**Reduced overall AWS cost by 46%** by migrating the UAT environment from the ECS Cluster to EC2 instances without compromising the testing and functionality of the system and ensuring minimal downtime",
-                "Led the migration of a specific module from AWS to OCI (Oracle Cloud Infrastructure) within a Spring Boot codebase restructuring dependencies for optimized deployment on **OCI’s Compute, Database Systems, and Object Storage**",
-                "Spearheaded the Share Transfer Facility (STF) project, overseeing frontend (React), backend (Spring Boot) and AWS cloud deployment achieving **20% faster delivery** and garnering positive customer feedbacks",
-                "Orchestrated high availability through Route53 failover, established RDS master-slave replication, conducted DR tests, and guided disaster recovery procedures, resulting in **90% uptime and 30% faster** issue resolution"
-            ],
-            "dateText": "Jan 2023 – July 2024",
-            "tags": ["Spring Boot", "React.js", "MySQL", "AWS", "AWS ECS", "Circle CI", "Github Actions", "Kubernetes", "Fintech", "Wealth Tech"]
         },
         {
             "title": "Software Engineer",

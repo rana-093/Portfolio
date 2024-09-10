@@ -1,73 +1,60 @@
 /* eslint-disable */
-import React, { useState, useEffect } from 'react';
-import ReactMarkdown from 'react-markdown';
-import { Container, Col, Row } from 'react-bootstrap';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
+import React, { useEffect, useState } from 'react';
+import '../css/achievement.css'; // Import the CSS file
 import Header from './Header';
-import Education from './Education';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+import ReactMarkdown from "react-markdown";
+import {Container} from "react-bootstrap";
 
-const styles = {
-  introTextContainer: {
-    margin: 10,
-    flexDirection: 'column',
-    whiteSpace: 'pre-wrap',
-    textAlign: 'left',
-    fontSize: '1.2em',
-    fontWeight: 500,
-  },
-  introImageContainer: {
-    margin: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    display: 'flex',
-  },
-};
 
-function About(props) {
+const MyComponent = (props) => {
   const { header } = props;
-  const [data, setData] = useState(null);
-
-  const parseIntro = (text) => (
-    <ReactMarkdown
-      children={text}
-    />
-  );
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(endpoints.achievement, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res.achievement))
-      .catch((err) => err);
+    const fetchData = async () => {
+      try {
+        const response = await fetch(endpoints.achievement);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const result = await response.json();
+        setData(result || []); // Safeguard if 'experiences' is missing
+      } catch (error) {
+        console.error('Fetch error:', error);
+      }
+    };
+
+    fetchData();
   }, []);
 
-  console.log('data is: ', data);
+  const parseIntro = (text) => (
+      <ReactMarkdown
+          children={text}
+      />
+  );
 
   return (
-    <>
-      <Header title={header} />
-      <div className="section-content-container">
-       
-          {data ? (
-            data.map((item) => (
-                  <a href={item.href} style={{textDecoration: 'none', color: 'red'}}>
-                    {parseIntro(item.story)}
-                </a>
-            ))
-          ) : (
-            <FallbackSpinner />
-          )}
-      </div>
-    </>
-  );
-}
+      <>
+        <Header title={header} />
 
-About.propTypes = {
-  header: PropTypes.string.isRequired,
+        <div className="section-content-container2">
+          {data.length > 0 ? (
+              data.map((item, index) => (
+                  <a href={item.href} key={index} className="achievement-item">
+                    <div className="item-title">{item.title}</div>
+                    <div className="item-story">{parseIntro(item.story)}</div>
+                  </a>
+              ))
+          ) : (
+              <div className="fallback-spinner">
+                <FallbackSpinner />
+              </div>
+          )}
+        </div>
+      </>
+  );
 };
 
-export default About;
+export default MyComponent;
